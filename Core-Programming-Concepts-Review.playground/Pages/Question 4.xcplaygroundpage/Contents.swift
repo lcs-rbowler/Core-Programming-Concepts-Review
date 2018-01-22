@@ -22,12 +22,15 @@
  */
 // Answer question 4 below
 let diners = Int()
+print("Since people can't be decimals it makes sense to use integers.")
 let saladBar = Double()
 let soup = Double()
 let mainCourse = Double()
 let pizzaOven = Double()
-let date = Int()
-let timeFrame = Int()
+print("Since all the constants above hold decimal values we need to use doubles.")
+let date = String()
+let timeFrame = String()
+print("Dates and timeframes can be stored as numbers or letters which is why we use string.")
 /*:
  ## Now share your understanding
  
