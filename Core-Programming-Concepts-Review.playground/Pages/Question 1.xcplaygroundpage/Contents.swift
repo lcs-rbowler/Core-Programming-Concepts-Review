@@ -23,15 +23,15 @@ import Foundation
 // Revise code below to answer question 1
 
 // Transformation parameters
-let yIntercept = 5.0
-let xIntercept = 2.0
-let slope = 0.5
+let verticalTranslation = 5.0
+let horizontalTranslation = 2.0
+let verticalScaling = 0.5
 
 // Set the independent variable value
 let input = 100.0
 
 // Calculate the dependent variable value
-let y = slope * pow(input - xIntercept, 2) + yIntercept
+let dependantVariable = verticalScaling * pow(input - verticalTranslation, 2) + horizontalTranslation
 
 /*:
  In other words:
