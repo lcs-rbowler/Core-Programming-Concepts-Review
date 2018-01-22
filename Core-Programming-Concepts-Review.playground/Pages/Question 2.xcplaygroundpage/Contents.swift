@@ -18,7 +18,13 @@
  
  */
 // Answer question 2 below
-
+var commitsCreated = 1
+var forksCreated = 1
+print("Commits and forks created are mutable values meaning they can change. If we set them as let statments you wouldn't be able to change the amount of forks or commits done so you use variables instead.")
+let yearRepCreated = 1
+let monthRepCreated = 1
+let dayRepCreated = 1
+print("The day, month, and year your repository was created will never be changed unless you can somehow alter time. Since they will never change, using a let statment is the best way to do things as you prevent any unwanted/unnoticed changes.")
 /*:
  ## Now share your understanding
  

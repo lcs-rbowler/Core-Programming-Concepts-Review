@@ -21,7 +21,13 @@
  
  */
 // Answer question 4 below
-
+let diners = Int()
+let saladBar = Double()
+let soup = Double()
+let mainCourse = Double()
+let pizzaOven = Double()
+let date = Int()
+let timeFrame = Int()
 /*:
  ## Now share your understanding
  
